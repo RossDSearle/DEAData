@@ -5,7 +5,7 @@ library(XML)
 library(xml2)
 library(stringr)
 library(htmltidy)
-library(async)
+#library(async)
 
 
 # rb <- brick('E:/temp/fract/x_0_y_-14/LS_FC_PC_3577_0_-14_19870101.nc', varname='BS_PC_50')
@@ -153,7 +153,7 @@ library(async)
  
  # Direct Download from within R Raster
  
- rootOut <- 'c:/temp/fcverDirect'
+ rootOut <- 'E:/DEAProcessing/fcverDirect'
  
  
  for (i in 1:length(xv)) {
