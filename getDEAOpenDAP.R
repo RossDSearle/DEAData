@@ -20,7 +20,7 @@ xv <- seq(-19, 21, 1)
 yv <- seq(-10, -43, -1)
 #att <- 'PV_PC_50'
 att <- 'NPV_PC_50'
-rootOut <- 'c:/temp/fcver'
+rootOut <- 'E:/DEAProcessing/fcver'
 
 
 for (i in 1:length(xv)) {
